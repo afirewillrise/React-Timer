@@ -1,4 +1,5 @@
 var React = require('react');
+var Nav = require('Nav');
 
 // var Main = React.createClass({
 //   render: function() {
@@ -17,6 +18,7 @@ var Main = (props) => {
     <div>
       <div>
         <div>
+          <Nav/>
           <p>Main.jsx has been rendered!</p>
           {props.children}
         </div>
